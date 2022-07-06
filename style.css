@@ -25,9 +25,9 @@
 
 .main_image {
     position: relative;
-    background: url(https://github.com/sohan-chhangani/PortfolioWebsite.github.io/blob/main/img/img4.png) right no-repeat;
+    background: url(img/img1.jpg) center no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 80%;
     width: 40%;
 }
 
