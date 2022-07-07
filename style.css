@@ -45,21 +45,46 @@
     transition: var(--tran-05);
     text-align: center;
 }
-* {box-sizing:border-box}
+
+* {
+    box-sizing: border-box
+}
+
+
 /* thiết lập style thẻ chứa skillbar */
- .container {
-   width: 100%; /* Toàn màn hình */
-   background-color: #ddd; /* thiết lập background */
- }
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
 .skills {
-   text-align: right; /* canh chữ cho chữ */
-   padding-top: 10px; /* thêm top padding */
-   padding-bottom: 10px; /* thêmbottom padding */
-   color: #000; /* thiết lập màu chữ */
- }
- .html {width: 90%; background-color: DarkOrange;} 
- .css {width: 80%; background-color: DodgerBlue;} 
- .js {width: 65%; background-color: Yellow;}
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.html {
+    width: 72%;
+    background-color: rgb(34, 0, 255);
+}
+
+.css {
+    width: 60%;
+    background-color: DodgerBlue;
+}
+
+.c {
+    width: 76%;
+    background-color: rgb(236, 255, 30);
+}
+
+.py {
+    width: 52%;
+    background-color: rgb(255, 162, 0);
+}
+
 body {
     min-height: 100vh;
     background-color: var(--body-color);
